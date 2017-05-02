@@ -1,0 +1,23 @@
+{
+  "name": "phntmjs",
+  "version": "1.0.0",
+  "description": "automatic test",
+  "main": "main.js",
+  "scripts": {
+    "run-casper": "casperjs main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rssviana/phntmJS.git"
+  },
+  "author": "rssviana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rssviana/phntmJS/issues"
+  },
+  "homepage": "https://github.com/rssviana/phntmJS#readme",
+  "devDependencies": {
+    "casperjs": "^1.1.3",
+    "phantomjs-prebuilt": "^2.1.14"
+  }
+}
