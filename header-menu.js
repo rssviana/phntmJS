@@ -13,12 +13,12 @@ function getLinks() {
 casper.start('http://www.endlessos.com/pt-br');
 
 casper.then(function () {
-    links = this.evaluate(getLinks);
+  links = this.evaluate(getLinks);
 });
 
 casper.run(function () {
     for(var i in links) {
-        console.log(links[i]);
+        console.log([i] + "º link goes to ->  " + links[i] + " .");
     }
     casper.done();
 });
